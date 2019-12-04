@@ -1,0 +1,58 @@
+% This example is meant to be compiled with lualatex or xelatex
+% The theme itself also supports pdflatex
+\PassOptionsToPackage{unicode}{hyperref}
+\documentclass[aspectratio=1610, 9pt]{beamer}
+
+% Load packages you need here
+\usepackage{polyglossia}
+\setmainlanguage{german}
+
+\usepackage{csquotes}
+    
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\usepackage{hyperref}
+\usepackage{bookmark}
+
+% load the theme after all packages
+
+\usetheme[
+  showtotalframes, % show total number of frames in the footline
+]{tudo}
+
+% Put settings here, like
+\unimathsetup{
+  math-style=ISO,
+  bold-style=ISO,
+  nabla=upright,
+  partial=upright,
+  mathrm=sym,
+}
+
+%Titel:
+\title{Neutrinodetektoren}
+%Autor
+\author[N.Breer]{Nils Breer}
+%Lehrstuhl/Fakultät
+\institute{Fakultät Physik}
+%Titelgrafik muss ich einfueren!!!
+%\titlegraphic{\includegraphics[width=0.3\textwidth]{content/Bilder/interferenz.jpg}}
+\date{13.12.2019}
+
+\begin{document}
+\maketitle
+
+\begin{frame}\frametitle{Agenda}
+  \begin{itemize}
+    \item Einf\"uhrung
+    \item Detektorarten
+    \item IceCube
+    \item ...
+    \item Fazit
+  \end{itemize}
+\end{frame}
+
+\end{document}
