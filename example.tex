@@ -220,14 +220,71 @@
 
 
 \begin{frame}\frametitle{STRAW}
-  \begin{itemize}
-    \item schona gelesenl; jetzt noch verstehen was die gemacht haben
-  \end{itemize}
+  \begin{block}{Was it STRAW und was sind die Ziele?}
+    \begin{columns}
+    \begin{column}[c]{0.45\textwidth}
+      \begin{itemize}
+        \item STRAW $\to$ Strings for Absorption length in Water
+        \item TUM, ONC und Universit\"at von Alberta \\ 
+        $\to$ Cascadia Basin
+        \item Ziel: \\ 
+        i)  optische Eigenschaften des Wassers \\
+        ii) PMTs in 2 km u. NN. 
+      \end{itemize}
+    \end{column}
+    \begin{column}[c]{0.45\textwidth}
+      \includegraphics{images/straw1.png}
+    \end{column}
+    \end{columns}
+  \end{block}
+\end{frame}
+
+\begin{frame}\frametitle{STRAW}
+  \begin{block}{Warum STRAW?}
+    \begin{columns}
+    \begin{column}[c]{0.45\textwidth}
+      \begin{itemize}
+        \item Suche nach neuen Standpunkten f\"ur Teleskope $\to$ Cascadia Basin
+        \item kleine Sedimentationsrate und langsame Str\"omungen
+        \item $\to$ D\"ampfungsl\"ange durch Lichtblitze
+      \end{itemize}
+    \end{column}
+    \begin{column}[c]{0.45\textwidth}
+      %\includegraphics{images/straw2.png}
+    \end{column}
+    \end{columns}
+  \end{block}
+\end{frame}
+
+\begin{frame}\frametitle{STRAW}
+  \begin{block}{Wie funktionieren diese Messungen?}
+    \begin{columns}
+    \begin{column}[c]{0.45\textwidth}
+      \begin{itemize}
+        \item POCAMs\footnote{precise optical callibration module} sendet Lichtblitze an sDOMS
+        \item verschiedene Baselines zwischen POCAM und sDOM
+        \item F\"ur Absorptionsl\"ange gilt: 
+      \end{itemize}
+      \begin{equation}
+        \symup{N}(r) = \frac{\symup{N}_0}{4\symup{\pi}r^2}\exp{\left(-\frac{r}{L_{T}}\right)}A_{text{det}}
+      \end{equation}
+      \begin{itemize}
+        \item background gegen signal diskriminieren $\to$ timestamps
+        \item alle timestamps in eine einzige phase falten und in histogram eintragen
+        \item result: signalpeaks gegen background aufgetragen
+      \end{itemize}
+    \end{column}
+    \begin{column}[c]{0.45\textwidth}
+      \includegraphics{images/straw3.png}
+    \end{column}
+    \end{columns}
+  \end{block}
 \end{frame}
 
 \begin{frame}\frametitle{P-ONE}
   \begin{itemize}
-    \item poster anschauen von jan
+    \item pacific ocean neutrino explorer
+    \item Ausbau von STRAW; 10 x 800 m lange strings
   \end{itemize}
 \end{frame}
 
